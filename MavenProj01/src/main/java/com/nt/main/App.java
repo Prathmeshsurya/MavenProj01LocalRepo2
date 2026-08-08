@@ -9,6 +9,7 @@ public class App {
     public static void main(String[] args) {
         System.out.println("Hello World!-1231");
         ArithmeticService service = new ArithmeticService();
-        System.out.println("Result is ::"+service.sum(100, 200));
+        System.out.println(" Sum Result is ::"+service.sum(100, 200));
+        System.out.println("Sub Result is ::"+service.sub(100, 200));
     }
 }
